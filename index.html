@@ -1,1 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Navaneeth Sheri | Data Analyst Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #1f2937;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #111827;
+      padding: 15px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: white;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      color: #4b5563;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 5px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #111827;
+      color: white;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 25px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 30px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .skill {
+      background: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+      color: #4b5563;
+    }
+
+    .experience {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      color: #111827;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+      color: white;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 5px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero h3 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <h2>Navaneeth Sheri</h2>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div>
+      <h1>Navaneeth Sheri</h1>
+
+      <h3>Aspiring Data Analyst</h3>
+
+      <p>
+        B.Sc. Data Science Student | SQL | Python | Data Analysis
+      </p>
+
+      <a class="btn" href="#projects">View My Projects</a>
+
+      <a class="btn" href="#contact">Contact Me</a>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about">
+
+      <p>
+        I am a B.Sc. Data Science student preparing for Data Analyst
+        internship and entry-level opportunities. I am developing
+        practical skills in SQL, Python, Pandas, NumPy, MySQL,
+        Excel, Power BI and data visualization.
+      </p>
+
+      <br>
+
+      <p>
+        I have worked on academic and internship-related projects
+        involving data cleaning, SQL queries, data analysis and
+        extracting useful insights from datasets.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+      <div class="skill">Python</div>
+      <div class="skill">Pandas</div>
+      <div class="skill">NumPy</div>
+      <div class="skill">SQL</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">Excel</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">Tableau</div>
+      <div class="skill">Data Cleaning</div>
+      <div class="skill">Data Analysis</div>
+      <div class="skill">Data Visualization</div>
+      <div class="skill">GitHub</div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <!-- SQL -->
+      <div class="card">
+
+        <h3>SQL Data Analysis</h3>
+
+        <p>
+          Practiced SQL data analysis using filtering, sorting,
+          GROUP BY, aggregations, revenue analysis, category
+          analysis, monthly revenue and order volume.
+        </p>
+
+        <strong>Tools:</strong> SQL, MySQL
+
+      </div>
+
+
+      <!-- CUSTOMER -->
+      <div class="card">
+
+        <h3>Customer Personality Analysis</h3>
+
+        <p>
+          Explored a customer marketing dataset using Python,
+          Pandas and NumPy. Practiced checking data types,
+          missing values, data cleaning and exploratory analysis.
+        </p>
+
+        <strong>Tools:</strong> Python, Pandas, NumPy
+
+      </div>
+
+
+      <!-- SUPERSTORE -->
+      <div class="card">
+
+        <h3>Superstore Data Analysis</h3>
+
+        <p>
+          Analyzed the Sample Superstore dataset to explore
+          sales and category-level performance and derive
+          business insights.
+        </p>
+
+        <strong>Tools:</strong> SQL, Tableau
+
+        <br><br>
+
+        <a class="btn"
+           href="https://github.com/navaneeth-ds/Task-2"
+           target="_blank">
+          View on GitHub
+        </a>
+
+      </div>
+
+
+      <!-- PYTHON -->
+      <div class="card">
+
+        <h3>Python Mini Projects</h3>
+
+        <p>
+          Built Student Marks Manager, Library Management System,
+          Expense Tracker, ATM Simulator and Student Record
+          Management System to practice Python fundamentals.
+        </p>
+
+        <strong>Tools:</strong> Python
+
+        <br><br>
+
+        <a class="btn"
+           href="https://github.com/navaneeth-ds/Library-Management-System"
+           target="_blank">
+          Library Project
+        </a>
+
+        <a class="btn"
+           href="https://github.com/navaneeth-ds/Expense-Tracker"
+           target="_blank">
+          Expense Tracker
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+
+    <h2>Experience</h2>
+
+    <div class="experience">
+
+      <h3>Data Analyst Intern — Elevate Labs</h3>
+
+      <p><strong>Remote | August 23, 2026</strong></p>
+
+      <br>
+
+      <p>
+        Completed project-based data analyst tasks involving
+        SQL, data analysis and business-oriented datasets.
+      </p>
+
+      <p>
+        Practiced querying, aggregation, revenue analysis,
+        category analysis, monthly revenue and order-volume
+        analysis.
+      </p>
+
+      <p>
+        Applied data-analysis concepts to practical internship
+        assignments and documented work on GitHub.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+
+    <h2>Resume</h2>
+
+    <div class="about">
+
+      <p>
+        Download my latest resume to learn more about my
+        education, skills, projects and internship experience.
+      </p>
+
+      <br>
+
+      <a class="btn" href="resume.pdf" download>
+        Download Resume
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+
+      <p>Email:
+        <a href="mailto:nvnthsheri14@gmail.com">
+          nvnthsheri14@gmail.com
+        </a>
+      </p>
+
+      <br>
+
+      <a class="btn"
+         href="https://www.linkedin.com/in/navaneeth-sheri-4b3511316"
+         target="_blank">
+        LinkedIn
+      </a>
+
+      <a class="btn"
+         href="https://github.com/navaneeth-ds"
+         target="_blank">
+        GitHub
+      </a>
+
+      <a class="btn"
+         href="https://sheris-data-lab.lovable.app"
+         target="_blank">
+        Lovable Portfolio
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>© 2026 Navaneeth Sheri</p>
+
+    <p>Aspiring Data Analyst</p>
+
+  </footer>
+
+</body>
+</html>
